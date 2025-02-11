@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon error in Python related to error handling.  The `function_with_uncommon_error` function attempts to handle both `ZeroDivisionError` and `TypeError`, but its use of `float('inf')` and `None` as return values might lead to unexpected behavior for consumers of this function.  The solution file provides a more robust error handling approach.
